@@ -1,6 +1,13 @@
+import './Header.css'
+import Navbar from '../Navbar/Navbar'
+
 function Header(){
     return(
-        <h1>"Travel Header"</h1>
+        <div> 
+     <h1 id='headTitle'>Travel Header</h1>
+        <Navbar />
+      
+        </div>
     )
 };
 

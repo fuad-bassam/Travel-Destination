@@ -1,24 +1,21 @@
 
+import Tour from './tour/Tour'
 
-
-function Tours(paramsTour) {
+function Tours({tour}) {
  
     return(
-        <>
+        <div id='divFather'>
        
         {
-            paramsTour.tour.map(tour => {
+           tour.map(tour => {
                 return(
-                    <div id={tour.id} key={tour.id}>
-                        <h1>Name :{tour.name}</h1>
-                        <img src={tour.image} alt="" />
-                    </div>
+                  <Tour tour={tour}  />  
                 )
                 
             })
         }
 
-        </>
+        </div>
         
         
     )
