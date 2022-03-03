@@ -1,3 +1,4 @@
+import './Home.css'
 import React from 'react';
 import data from '../../data/db.json'
 import Header from '../header/Header'

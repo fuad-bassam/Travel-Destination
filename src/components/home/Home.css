@@ -1,0 +1,61 @@
+#headTitle{
+    padding: 9px;
+    margin: 14px 6px;
+    border: solid 2px rgb(22, 201, 22) ;
+}
+.foot{
+display:inline-block;
+border: 1px solid rgb(22, 201, 22);
+padding: 10px;
+    margin: 15;
+    font-size: 22px;
+    width:20%;
+    background-color: aqua;
+}
+.city{
+    border :solid 2px black;
+  background-color: rgb(22, 201, 22) ;
+  width: 80%;
+  align-items: center;
+  padding: 12px;
+  border-radius: 12%;
+  margin: 20px;
+
+}
+#cityImg{
+
+    width :222px;
+    height : 222px;
+    margin-left :10px;
+    border-radius: 20%;
+}
+
+.citys{
+    border :solid 2px black;
+    background-color: rgb(22, 201, 22) ;
+    width :300px;
+    height :400px;
+padding: 14px;
+    align-items: center;
+    border-radius: 13%;
+    margin: 13px;
+}
+
+#divFather{
+    display: flex;
+    flex-wrap: wrap; 
+    padding: 13px;
+}
+
+#citysImgs{
+ width :222px;
+    height : 222px;
+    margin-left: 10%;
+/*   
+margin-left: 50%;
+
+margin-right: 30%; */
+}
+
+
+
